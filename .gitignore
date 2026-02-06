@@ -1,0 +1,30 @@
+.env
+.env.*
+!.env.example
+
+# Virtual envs
+.venv
+venv
+ENV
+
+# Python bytecode
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Tooling caches
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+
+# OS junk
+.DS_Store
+Thumbs.db
+
+# Outputs / artifacts (keep input data committable if desired)
+checkpoint_partial.csv
+results*.csv
+*.log
+biomarkers.csv

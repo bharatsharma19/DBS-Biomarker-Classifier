@@ -1,0 +1,16 @@
+# Biomarker Classification Dependencies
+# Last updated: Feb 2026
+
+# Core AI
+google-genai>=1.0.0,<2  # Google Gemini SDK
+
+# Data processing
+pandas>=2.0.0,<3
+
+# Utilities
+python-dotenv>=1.0.0,<2  # Environment variable management
+tqdm>=4.65.0,<5  # Progress bars
+tenacity>=8.2.0,<9  # Retry logic with exponential backoff
+
+# Optional but recommended
+openpyxl>=3.1.0,<4  # Excel support if needed
