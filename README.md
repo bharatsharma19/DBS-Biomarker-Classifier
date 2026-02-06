@@ -281,7 +281,7 @@ python export_clean.py --checkpoint checkpoint_partial.csv --output results_clea
 
 ## License
 
-Internal use only - Nutricheck project
+MIT License (see `LICENSE`).
 
 ## Last Updated
 
